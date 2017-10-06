@@ -1,0 +1,19 @@
+﻿<Properties StartupConfiguration="{1D5DEBF4-0D4D-4E98-A50E-325AAE9602A4}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="JSSEApplication/Views/CreateNewJSSE.xaml.cs">
+    <Files>
+      <File FileName="JSSEApplication/JSSEApplicationPage.xaml" Line="5" Column="1" />
+      <File FileName="JSSEApplication/Views/CreateNewJSSE.xaml" Line="246" Column="15" />
+      <File FileName="JSSEApplication/Views/CreateJsse.cs" Line="11" Column="1" />
+      <File FileName="JSSEApplication/Views/CreateNewJSSE.xaml.cs" Line="31" Column="30" />
+      <File FileName="JSSEApplication/Views/CreateJsse.xaml" Line="6" Column="1" />
+      <File FileName="JSSEApplication/Views/CreateJsse.xaml.cs" Line="13" Column="44" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.JSSEApplication.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.D93C4D9C-6BC3-4614-8F47-6511184A1640" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

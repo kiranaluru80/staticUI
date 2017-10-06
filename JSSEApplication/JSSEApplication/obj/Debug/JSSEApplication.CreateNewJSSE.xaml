@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="JSSEApplication.CreateNewJSSE">
+<StackLayout HorizontalOptions = "FillAndExpand" VerticalOptions = "FillAndExpand" Padding = "0,20,0,0">
+ <ScrollView HorizontalOptions = "FillAndExpand" VerticalOptions = "FillAndExpand">
+	<StackLayout HorizontalOptions = "FillAndExpand" VerticalOptions = "FillAndExpand" Orientation = "Vertical" Spacing = "0">
+		<BoxView HorizontalOptions = "FillAndExpand" VerticalOptions = "Start" HeightRequest = "1" BackgroundColor = "Black"/>
+		<Label Text = "JSSE Observations" HorizontalOptions = "CenterAndExpand" VerticalOptions = "Start"></Label>		
+		<BoxView HorizontalOptions = "FillAndExpand" VerticalOptions = "Start" HeightRequest = "1" BackgroundColor = "Black"/>
+		<!-- Comminications -->
+		<StackLayout Margin = "0,10,0,0" HorizontalOptions = "FillAndExpand" VerticalOptions = "Start" Orientation = "Vertical" >
+		 <Frame x:Name = "ComminicationsRef" OutlineColor = "Black" HasShadow = "false" HorizontalOptions = "FillAndExpand" Padding = "7" >
+			<StackLayout Orientation = "Vertical" HorizontalOptions = "FillAndExpand" VerticalOptions = "Start">
+			  <Label HorizontalOptions = "StartAndExpand" VerticalOptions = "StartAndExpand" Text = "Comminications"/>
+			</StackLayout>
+		 </Frame>
+		<!-- Comminications Dropdown -->
+		<Frame x:Name = "ComminicationsRefVisible" IsVisible = "false" OutlineColor = "Black" HasShadow = "false" HorizontalOptions = "FillAndExpand" Padding = "7" >
+			<StackLayout Orientation = "Vertical" HorizontalOptions = "FillAndExpand" VerticalOptions = "Start">
+			</StackLayout>
+		 </Frame>
+		<!-- Comminications Dropdown -->
+		</StackLayout>
+		<!--End Comminications -->
+
+		<!-- Work area steps -->
+		<StackLayout  HorizontalOptions = "FillAndExpand" VerticalOptions = "Start" Orientation = "Vertical" >
+		 <Frame x:Name = "WorkAreaStepsRef" OutlineColor = "Black" HasShadow = "false" HorizontalOptions = "FillAndExpand" Padding = "7" >
+			<StackLayout Orientation = "Vertical" HorizontalOptions = "FillAndExpand" VerticalOptions = "Start">
+			  <Label HorizontalOptions = "StartAndExpand" VerticalOptions = "StartAndExpand" Text = "Work Area Steps"/>
+			</StackLayout>
+		 </Frame>
+		<!-- Work area steps  Dropdown -->
+		<Frame x:Name = "WorkAreaStepsRefVisible" IsVisible = "false" OutlineColor = "Black" HasShadow = "false" HorizontalOptions = "FillAndExpand" Padding = "7" >
+			<StackLayout Orientation = "Vertical" HorizontalOptions = "FillAndExpand" VerticalOptions = "Start">
+			</StackLayout>
+		 </Frame>
+		<!-- Work area steps  Dropdown -->
+		</StackLayout>
+		<!--End Work area steps  -->
+
+
+		<!-- Proper Use Of PPE -->
+		<StackLayout  HorizontalOptions = "FillAndExpand" VerticalOptions = "Start" Orientation = "Vertical" >
+		 <Frame x:Name = "ProperUseOfPPERef" OutlineColor = "Black" HasShadow = "false" HorizontalOptions = "FillAndExpand" Padding = "7" >
+			<StackLayout Orientation = "Vertical" HorizontalOptions = "FillAndExpand" VerticalOptions = "Start">
+			  <Label HorizontalOptions = "StartAndExpand" VerticalOptions = "StartAndExpand" Text = "Proper Use Of PPE"/>
+			</StackLayout>
+		 </Frame>
+		<!-- Proper Use Of PPE  Dropdown -->
+		<Frame x:Name = "ProperUseOfPPERefVisible" IsVisible = "false" OutlineColor = "Black" HasShadow = "false" HorizontalOptions = "FillAndExpand" Padding = "7" >
+			<StackLayout Orientation = "Vertical" HorizontalOptions = "FillAndExpand" VerticalOptions = "Start">
+			</StackLayout>
+		 </Frame>
+		<!-- Proper Use Of PPE  Dropdown -->
+		</StackLayout>
+		<!--End Proper Use Of PPE  -->
+
+
+	    <!-- Energy Source Control -->
+		<StackLayout  HorizontalOptions = "FillAndExpand" VerticalOptions = "Start" Orientation = "Vertical" >
+		 <Frame x:Name = "EnergySourceControlRef" OutlineColor = "Black" HasShadow = "false" HorizontalOptions = "FillAndExpand" Padding = "7" >
+			<StackLayout Orientation = "Vertical" HorizontalOptions = "FillAndExpand" VerticalOptions = "Start">
+			  <Label HorizontalOptions = "StartAndExpand" VerticalOptions = "StartAndExpand" Text = "Energy Source Control"/>
+			</StackLayout>
+		 </Frame>
+		<!-- Energy Source Control  Dropdown -->
+		<Frame x:Name = "EnergySourceControlRefVisible" IsVisible = "false" OutlineColor = "Black" HasShadow = "false" HorizontalOptions = "FillAndExpand" Padding = "7" >
+			<StackLayout Orientation = "Vertical" HorizontalOptions = "FillAndExpand" VerticalOptions = "Start">
+			</StackLayout>
+		 </Frame>
+		<!-- Energy Source Control  Dropdown -->
+		</StackLayout>
+		<!--End Energy Source Control  -->
+
+
+		 <!-- Work Methods, Techniques -->
+		<StackLayout  HorizontalOptions = "FillAndExpand" VerticalOptions = "Start" Orientation = "Vertical" >
+		 <Frame x:Name = "WorkMethodsRef" OutlineColor = "Black" HasShadow = "false" HorizontalOptions = "FillAndExpand" Padding = "7" >
+			<StackLayout Orientation = "Vertical" HorizontalOptions = "FillAndExpand" VerticalOptions = "Start">
+			  <Label HorizontalOptions = "StartAndExpand" VerticalOptions = "StartAndExpand" Text = "Work Methods, Techniques &amp; PPI"/>
+			</StackLayout>
+		 </Frame>
+		<!-- Work Methods, Techniques  Dropdown -->
+		<Frame x:Name = "WorkMethodsRefVisible" IsVisible = "false" OutlineColor = "Black" HasShadow = "false" HorizontalOptions = "FillAndExpand" Padding = "7" >
+			<StackLayout Orientation = "Vertical" HorizontalOptions = "FillAndExpand" VerticalOptions = "Start">
+			</StackLayout>
+		 </Frame>
+		<!-- Work Methods, Techniques  Dropdown -->
+		</StackLayout>
+		<!--End Work Methods, Techniques  -->
+
+		 <!-- Driver Safety Strengths -->
+		<StackLayout  HorizontalOptions = "FillAndExpand" VerticalOptions = "Start" Orientation = "Vertical" >
+		 <Frame x:Name = "DriverSafetyStrengthsRef" OutlineColor = "Black" HasShadow = "false" HorizontalOptions = "FillAndExpand" Padding = "7" >
+			<StackLayout Orientation = "Vertical" HorizontalOptions = "FillAndExpand" VerticalOptions = "Start">
+			  <Label HorizontalOptions = "StartAndExpand" VerticalOptions = "StartAndExpand" Text = "Driver Safety Strengths"/>
+			</StackLayout>
+		 </Frame>
+		<!-- Driver Safety Strengths  Dropdown -->
+		<Frame x:Name = "DriverSafetyStrengthsRefVisible" IsVisible = "false" OutlineColor = "Black" HasShadow = "false" HorizontalOptions = "FillAndExpand" Padding = "7" >
+			<StackLayout Orientation = "Vertical" HorizontalOptions = "FillAndExpand" VerticalOptions = "Start">
+			</StackLayout>
+		 </Frame>
+		<!-- Driver Safety Strengths  Dropdown -->
+		</StackLayout>
+		<!--End Driver Safety Strengths  -->
+	
+				
+	</StackLayout>
+ </ScrollView>
+</StackLayout>
+</ContentPage>
